@@ -1,0 +1,9 @@
+contentWindow属性是指 指定的frame或者iframe所在的window对象
+
+IE 中为 frames["id"]其他为document.getElementById("id").contentWindow
+
+contentWindow属性是指指定的frame或者iframe所在的window对象
+
+在IE中iframe或者frame的contentWindow属性可以省略，但在Firefox中如果要对iframe对象进行编辑则
+
+必须指定contentWindow属性。
